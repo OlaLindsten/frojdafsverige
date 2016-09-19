@@ -1,6 +1,9 @@
 body{
     font-family: Bree Serif, serif;
 }
+.head{
+    padding-top: 20px;
+}
 .text-center{
     text-align: center;
 }
@@ -36,4 +39,17 @@ body{
 .footer-nav a:hover{
     color: #fff;
     text-decoration: none;
+}
+
+/* Meny CSS */
+.meny-rubrik{
+    text-decoration: strong;
+}
+.row-meny{
+    background-color: #b2b2b2;
+    border-style: solid;
+    border-color: #ffffff;
+    text-align: center;
+    padding-top: 15px; 
+    padding-bottom: 15px;
 }
