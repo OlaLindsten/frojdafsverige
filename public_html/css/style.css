@@ -1,6 +1,8 @@
 body{
-    font-family: Bree Serif, serif;
+    font-family: Copperplate Gothic Light, sans-serif;
+    font-size: 15px;
 }
+
 .head{
     padding-top: 20px;
 }
@@ -10,6 +12,7 @@ body{
 .navbar-default{
     background-color: #ffffff;
 }
+/* footer */
 .site-footer{
     background-color: #222;
     color: #fff;
@@ -52,4 +55,11 @@ body{
     text-align: center;
     padding-top: 15px; 
     padding-bottom: 15px;
+}
+.tab-content{
+    text-align: center;
+}
+.table-head{
+    text-decoration: underline bold;
+    
 }
