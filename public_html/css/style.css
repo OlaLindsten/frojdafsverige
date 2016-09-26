@@ -1,6 +1,8 @@
 body{
     font-family: Copperplate Gothic Light, sans-serif;
     font-size: 15px;
+    color: black;
+    
 }
 .head{
     padding-top: 20px;
@@ -58,20 +60,17 @@ ul.nav a:hover {
 .meny-rubrik{
     text-decoration:none;
 }
-.row-meny{
+
+/*.row-meny{
     background-color: #b2b2b2;
     border-style: solid;
     border-color: #ffffff;
     text-align: center;
     padding-top: 15px; 
     padding-bottom: 15px;
-}
+} */
 .tab-content{
     text-align: center;
-}
-.table-head{
-    text-decoration: underline;
-    font-size: 500px;
 }
 .mat_titel{
     font-weight: bold;
