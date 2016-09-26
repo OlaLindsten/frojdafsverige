@@ -5,6 +5,13 @@ body{
 .head{
     padding-top: 20px;
 }
+.row-tabs{
+    padding-top: 50px;
+}
+ul.nav a:hover { 
+    color: blue !important; 
+    text-decoration: none;
+}
 .text-center{
     text-align: center;
 }
@@ -47,6 +54,7 @@ body{
 }
 
 /* Meny CSS */
+
 .meny-rubrik{
     text-decoration:none;
 }
