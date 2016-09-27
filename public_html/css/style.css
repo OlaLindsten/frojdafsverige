@@ -2,7 +2,8 @@ body{
     font-family: Copperplate Gothic Light, sans-serif;
     font-size: 15px;
     color: black;
-    
+    height: 100%;
+    width: 100%;
 }
 .head{
     padding-top: 20px;
@@ -51,7 +52,7 @@ ul.nav a:hover {
     color: #b2b2b2;
 }
 .footer-nav a:hover{
-    color: #fff;
+    color: blue;
     text-decoration: none;
 }
 
@@ -74,4 +75,13 @@ ul.nav a:hover {
 }
 .mat_titel{
     font-weight: bold;
+}
+/* carousel */
+#carousel-example-generic{
+    width: 100%;
+    max-height: 500px;
+}
+.carousel-inner > .item > img {
+    margin: 0 auto;
+    max-height: 500px;
 }
