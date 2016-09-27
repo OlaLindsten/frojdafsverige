@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/btn.css">
         <link rel="shortcut icon" type="image/title" href="img/navlogo2.jpg">
         <link href="css/scrolling-nav.css" rel="stylesheet">
 
@@ -90,7 +91,7 @@
                 <div class="row-tabs">
 
                     <!--Tabs navigation -->
-                    <ul class="nav nav-tabs col-sm-8 col-xs-7">
+                    <ul class="nav nav-tabs col-sm-12 col-xs-7">
                         <li class="active"><a href="#tab1" data-toggle="tab">Mat</a></li>
                         <li><a href="#tab2" data-toggle="tab">Röda viner</a></li>
                         <li><a href="#tab3" data-toggle="tab">Vita/Rosé viner</a></li>
@@ -258,19 +259,18 @@
         <div id="kontakt" class="kontakt-section">
             <div class="container">
                 <div class="jumbotron">
-                    <div class="row">
-                        
+                    <div class="row">   
                         <div class="col-md-4">
                             <form>
                                 <div class="form-group">
                                     <span class="glyphicon glyphicon-user"></span>
                                     <span class="sr-only"></span>
                                     <label>Namn</label>
-                                    <input type="text" class="form-control" id="inputNamn" placeholder="Var vänlig och skriv ditt namn">
+                                    <input type="text" class="form-control" id="inputNamn" placeholder="Skriv in ditt namn">
                                 </div>
                             </form>
                         </div>
-
+                    
                         <div class="col-md-4">
                             <form>
                                 <div class="form-group">
@@ -281,9 +281,6 @@
                                 </div>
                             </form>
                         </div>
-
-
-
                     </div>
                     <div class="row">
                         <div class="col-md-8">
@@ -295,7 +292,9 @@
                                     <textarea class="form-control" rows="5" id="message" placeholder="Skriv ditt meddelande här"></textarea>
 
                                 </div>
-                                <button type="submit" value="Skicka" class="btn btn-block">Skicka </button>
+                                <div class="send">
+                                    <button type="submit" value="Skicka" id="js-trigger-overlay" class="btn btn-block">Skicka </button>
+                                </div>
                             </form>
                         </div>
                     </div> 
@@ -322,15 +321,15 @@
 
                 </div>
                 <div class="bottom-footer">
-                    <div class="col-md-5">Webpage made by Ola Lindstén
+                    <div class="col-md-5 col-xs-12">Webpage made by Ola Lindstén
                         <span class="glyphicon glyphicon-copyright-mark"></span>
                     </div>
 
-                    <div class="col-md-7">
+                    <div class="col-md-7 col-xs-12">
                         <ul class="footer-nav">
                             <li><a class="page-scroll" href="#page-top">Hem</a></li>
                             <li><a class="page-scroll" href="#meny">Meny</a></li>
-                            <li><a class="page-scroll "href="#kontakt">Kontakt</a></li>
+                            <li><a class="page-scroll" href="#kontakt">Kontakt</a></li>
                         </ul>
                     </div>
                 </div>
